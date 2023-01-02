@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-data-consumer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-data-investigation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-data-producer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-data-reactor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/user-reactive-mongdb" vcs="Git" />
+  </component>
+</project>

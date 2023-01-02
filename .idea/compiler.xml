@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-data-investigation" />
+        <module name="user-data-consumer" />
+        <module name="user-data-reactor" />
+        <module name="user-reactive-mongdb" />
+        <module name="user-data-producer" />
+        <module name="user-commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
+      <module name="user-commons" options="-parameters" />
+      <module name="user-data-analyzer" options="" />
+      <module name="user-data-consumer" options="-parameters" />
+      <module name="user-data-investigation" options="-parameters" />
+      <module name="user-data-producer" options="-parameters" />
+      <module name="user-data-reactor" options="-parameters" />
+      <module name="user-reactive-mongdb" options="-parameters" />
+    </option>
+  </component>
+</project>
